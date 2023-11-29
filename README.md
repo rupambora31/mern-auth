@@ -22,7 +22,7 @@ To run this application locally, follow these steps:
    npm install
    ```
 4. Copy the .env.example file to .env in root and client directory separately:
-  ```bash
+   ```bash
    cp .env.example .env
    ```
 5. Open the .env file from root folder. Update the JWT_SECRET and MONGODB_URL with your local MongoDB connection string.
@@ -33,8 +33,8 @@ To run this application locally, follow these steps:
     # MongoDB Connection URL
    DATABASE_URL="mongodb://your-mongodb-url"
    ```
-6.Open the .env file from client folder and update the VITE_FIREBASE_API_KEY with your Firebase API key.
-  ```bash
+6. Open the .env file from client folder and update the VITE_FIREBASE_API_KEY with your Firebase API key.
+   ```bash
     #VITE_FIREBASE_API_KEY
    VITE_FIREBASE_API_KEY = "Your Firebase API key"
    ```
